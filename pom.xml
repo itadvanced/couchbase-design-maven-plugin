@@ -12,7 +12,14 @@
 	<properties>
 		<mavenVersion>3.0</mavenVersion>
 		<mavenPluginVersion>3.0</mavenPluginVersion>
+		<scmUrl>https://github.com/itadvanced/couchbase-design-maven-plugin</scmUrl>
+		<scmConnection>scm:git:${scmUrl}.git</scmConnection>
 	</properties>
+
+	<scm>
+		<url>${scmUrl}</url>
+		<connection>${scmConnection}</connection>
+	</scm>
 
 	<dependencies>
 		<dependency>
