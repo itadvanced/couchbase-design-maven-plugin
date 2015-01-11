@@ -3,7 +3,7 @@
 
 	<groupId>org.ita.maven</groupId>
 	<artifactId>couchbase-design-maven-plugin</artifactId>
-	<version>1.0</version>
+	<version>1.0.1-SNAPSHOT</version>
 	<packaging>maven-plugin</packaging>
 
 	<name>Couchbase Design Documents Maven Plugin</name>
