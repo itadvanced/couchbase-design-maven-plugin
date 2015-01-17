@@ -25,7 +25,7 @@ Configure your pom.xml file. Add plugin to your build/plugins with goal **ensure
 			<plugin>
 				<groupId>org.ita.maven</groupId>
 				<artifactId>couchbase-design-maven-plugin</artifactId>
-				<version>0.0.1-SNAPSHOT</version>
+				<version>1.0</version>
 				<configuration>
 					<username>${username}</username>
 					<password>${password}</password>
